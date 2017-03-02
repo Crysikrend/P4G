@@ -1,4 +1,4 @@
-﻿Build started 02/03/2017 10:14:04.
+﻿Build started 02/03/2017 11:13:41.
      1>Project "\\studenthome.hallam.shu.ac.uk\STUDENTHOME8\8\b5010988\MyWork\Second Year\PFG\git\Racer2\Racer2\Racer2.vcxproj" on node 2 (Build target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Racer2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>FxCompile:
@@ -7,15 +7,15 @@
          C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T vs_5_0 /Fo "..\bin\data\TextureVS.cso" /Od /Zi ..\FX\TextureVS.hlsl 
          compilation object save succeeded; see \\studenthome.hallam.shu.ac.uk\STUDENTHOME8\8\b5010988\MyWork\Second Year\PFG\git\Racer2\bin\data\TextureVS.cso
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\DirectXTK\Inc /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /wd4005 AudioMgr.cpp AudioMgrFMOD.cpp D3D.cpp D3DUtil.cpp Error.cpp FX.cpp File.cpp Game.cpp GeometryBuilder.cpp Input.cpp Mesh.cpp Model.cpp ShaderTypes.cpp UtilsDefines.cpp WindowUtils.cpp
-         Game.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\DirectXTK\Inc /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /wd4005 AudioMgr.cpp AudioMgrFMOD.cpp D3D.cpp D3DUtil.cpp Error.cpp FX.cpp File.cpp GeometryBuilder.cpp Grid.cpp Input.cpp Mesh.cpp Model.cpp ShaderTypes.cpp UtilsDefines.cpp WindowUtils.cpp
+         Mesh.cpp
+         Grid.cpp
          Generating Code...
          Skipping... (no relevant changes detected)
          WindowUtils.cpp
          UtilsDefines.cpp
          ShaderTypes.cpp
          Model.cpp
-         Mesh.cpp
          Input.cpp
          GeometryBuilder.cpp
          File.cpp
@@ -35,6 +35,7 @@
          Debug\FX.obj
          Debug\Game.obj
          Debug\GeometryBuilder.obj
+         Debug\Grid.obj
          Debug\Input.obj
          Debug\main.obj
          Debug\Mesh.obj
@@ -48,4 +49,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:09.08
+Time Elapsed 00:00:11.33
