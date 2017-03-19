@@ -1,25 +1,8 @@
-﻿Build started 18/03/2017 15:30:58.
+﻿Build started 19/03/2017 19:10:36.
      1>Project "C:\Users\Holly\Desktop\P4G Assignment\P4G\P4G\P4G\Racer2\Racer2.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\DirectXTK\Inc /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /wd4005 Game.cpp Level.cpp LevelMGR.cpp Player.cpp main.cpp
-         Level.cpp
-     1>c:\users\holly\desktop\p4g assignment\p4g\p4g\p4g\racer2\level.cpp(77): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
-     1>c:\users\holly\desktop\p4g assignment\p4g\p4g\p4g\racer2\level.cpp(126): warning C4065: switch statement contains 'default' but no 'case' labels
-     1>c:\users\holly\desktop\p4g assignment\p4g\p4g\p4g\racer2\level.cpp(138): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
-     1>c:\users\holly\desktop\p4g assignment\p4g\p4g\p4g\racer2\level.cpp(142): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
-     1>c:\users\holly\desktop\p4g assignment\p4g\p4g\p4g\racer2\level.cpp(143): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
-     1>c:\users\holly\desktop\p4g assignment\p4g\p4g\p4g\racer2\level.cpp(146): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
-     1>c:\users\holly\desktop\p4g assignment\p4g\p4g\p4g\racer2\level.cpp(147): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
-     1>c:\users\holly\desktop\p4g assignment\p4g\p4g\p4g\racer2\level.cpp(161): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
-         Generating Code...
-     1>c:\users\holly\desktop\p4g assignment\p4g\p4g\p4g\racer2\level.cpp(118): warning C4715: 'Level::createTile' : not all control paths return a value
-         Compiling...
-         main.cpp
-         Player.cpp
-     1>c:\users\holly\desktop\p4g assignment\p4g\p4g\p4g\racer2\player.cpp(48): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\DirectXTK\Inc /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /wd4005 LevelMGR.cpp
          LevelMGR.cpp
-         Game.cpp
-         Generating Code...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\P4G.exe" /INCREMENTAL /NOLOGO /LIBPATH:fmod/lib fmodex_vc.lib Xinput9_1_0.lib "assimp-vc120-mtd.lib" d3d11.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"../bin/P4G.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../bin/P4G.lib" /MACHINE:X86 Debug\AudioMgr.obj
          Debug\AudioMgrFMOD.obj
@@ -51,4 +34,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:15.21
+Time Elapsed 00:00:03.42
