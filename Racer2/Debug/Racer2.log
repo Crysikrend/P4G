@@ -1,9 +1,72 @@
-﻿Build started 17/05/2017 14:08:05.
-     1>Project "C:\Users\Holly\Desktop\P4G Assignment\P4G\P4G\P4G\Racer2\Racer2.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\DirectXTK\Inc /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /wd4005 LevelMGR.cpp
+﻿Build started 17/05/2017 14:48:24.
+     1>Project "E:\Year 2\P4G\git\P4G\Racer2\Racer2.vcxproj" on node 2 (Build target(s)).
+     1>FxCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T ps_5_0 /Fo "..\bin\data\PSLitNoTex.cso" /Od /Zi ..\FX\PSLitNoTex.hlsl 
+         compilation object save succeeded; see E:\Year 2\P4G\git\P4G\bin\data\PSLitNoTex.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T ps_5_0 /Fo "..\bin\data\PSLitTex.cso" /Od /Zi ..\FX\PSLitTex.hlsl 
+         compilation object save succeeded; see E:\Year 2\P4G\git\P4G\bin\data\PSLitTex.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T ps_5_0 /Fo "..\bin\data\PSUnlitNoTex.cso" /Od /Zi ..\FX\PSUnlitNoTex.hlsl 
+         compilation object save succeeded; see E:\Year 2\P4G\git\P4G\bin\data\PSUnlitNoTex.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T ps_5_0 /Fo "..\bin\data\PSUnlitTex.cso" /Od /Zi ..\FX\PSUnlitTex.hlsl 
+         compilation object save succeeded; see E:\Year 2\P4G\git\P4G\bin\data\PSUnlitTex.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T vs_5_0 /Fo "..\bin\data\TextureVS.cso" /Od /Zi ..\FX\TextureVS.hlsl 
+         compilation object save succeeded; see E:\Year 2\P4G\git\P4G\bin\data\TextureVS.cso
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\DirectXTK\Inc /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /wd4005 AudioMgr.cpp AudioMgrFMOD.cpp D3D.cpp D3DUtil.cpp Error.cpp File.cpp FX.cpp Game.cpp GameScreen.cpp GeometryBuilder.cpp InverseInvisibleWall.cpp Level.cpp Input.cpp LevelMGR.cpp main.cpp MenuScreen.cpp Mesh.cpp Model.cpp Player.cpp ShaderTypes.cpp Tile.cpp TileEnd.cpp TileFloor.cpp TileInvisibleWall.cpp TilePickup.cpp TileStart.cpp Timer.cpp UserInterface.cpp UtilsDefines.cpp WindowUtils.cpp
+         WindowUtils.cpp
+         UtilsDefines.cpp
+         UserInterface.cpp
+         Timer.cpp
+         TileStart.cpp
+         TilePickup.cpp
+         TileInvisibleWall.cpp
+         TileFloor.cpp
+     1>e:\year 2\p4g\git\p4g\racer2\tilefloor.cpp(91): warning C4305: 'argument' : truncation from 'double' to 'float'
+         TileEnd.cpp
+         Tile.cpp
+     1>e:\year 2\p4g\git\p4g\racer2\tile.cpp(50): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         ShaderTypes.cpp
+         Player.cpp
+     1>e:\year 2\p4g\git\p4g\racer2\player.cpp(46): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+         Model.cpp
+         Mesh.cpp
+         MenuScreen.cpp
+     1>e:\year 2\p4g\git\p4g\racer2\menuscreen.cpp(74): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\year 2\p4g\git\p4g\racer2\menuscreen.cpp(79): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         main.cpp
          LevelMGR.cpp
-     1>c:\users\holly\desktop\p4g assignment\p4g\p4g\p4g\racer2\levelmgr.cpp(255): warning C4305: '=' : truncation from 'double' to 'float'
+     1>e:\year 2\p4g\git\p4g\racer2\levelmgr.cpp(255): warning C4305: '=' : truncation from 'double' to 'float'
+         Input.cpp
+         Level.cpp
+     1>e:\year 2\p4g\git\p4g\racer2\level.cpp(79): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\year 2\p4g\git\p4g\racer2\level.cpp(81): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\year 2\p4g\git\p4g\racer2\level.cpp(131): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\year 2\p4g\git\p4g\racer2\level.cpp(206): warning C4065: switch statement contains 'default' but no 'case' labels
+     1>e:\year 2\p4g\git\p4g\racer2\level.cpp(227): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
+     1>e:\year 2\p4g\git\p4g\racer2\level.cpp(231): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
+     1>e:\year 2\p4g\git\p4g\racer2\level.cpp(232): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
+     1>e:\year 2\p4g\git\p4g\racer2\level.cpp(235): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
+     1>e:\year 2\p4g\git\p4g\racer2\level.cpp(236): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
+     1>e:\year 2\p4g\git\p4g\racer2\level.cpp(252): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\year 2\p4g\git\p4g\racer2\level.cpp(265): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\year 2\p4g\git\p4g\racer2\level.cpp(286): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\year 2\p4g\git\p4g\racer2\level.cpp(308): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
+         InverseInvisibleWall.cpp
+         Generating Code...
+     1>e:\year 2\p4g\git\p4g\racer2\level.cpp(257): warning C4715: 'Level::getStartingPosition' : not all control paths return a value
+     1>e:\year 2\p4g\git\p4g\racer2\level.cpp(270): warning C4715: 'Level::getEndingPosition' : not all control paths return a value
+         Compiling...
+         GeometryBuilder.cpp
+         GameScreen.cpp
+         Game.cpp
+         FX.cpp
+         File.cpp
+         Error.cpp
+         D3DUtil.cpp
+         D3D.cpp
+         AudioMgrFMOD.cpp
+         AudioMgr.cpp
+         Generating Code...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\P4G.exe" /INCREMENTAL /NOLOGO /LIBPATH:fmod/lib fmodex_vc.lib Xinput9_1_0.lib "assimp-vc120-mtd.lib" d3d11.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"../bin/P4G.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../bin/P4G.lib" /MACHINE:X86 Debug\P4G.res
          Debug\AudioMgr.obj
@@ -36,10 +99,11 @@
          Debug\UserInterface.obj
          Debug\UtilsDefines.obj
          Debug\WindowUtils.obj
-         "C:\Users\Holly\Desktop\P4G Assignment\P4G\DirectXTK\Bin\Desktop_2013\Win32\Debug\DirectXTK.lib"
-         Racer2.vcxproj -> C:\Users\Holly\Desktop\P4G Assignment\P4G\P4G\P4G\Racer2\../bin/P4G.exe
-     1>Done Building Project "C:\Users\Holly\Desktop\P4G Assignment\P4G\P4G\P4G\Racer2\Racer2.vcxproj" (Build target(s)).
+         "E:\Year 2\P4G\DirectXTK\Bin\Desktop_2013\Win32\Debug\DirectXTK.lib"
+         LINK : ..\bin\P4G.exe not found or not built by the last incremental link; performing full link
+         Racer2.vcxproj -> E:\Year 2\P4G\git\P4G\Racer2\../bin/P4G.exe
+     1>Done Building Project "E:\Year 2\P4G\git\P4G\Racer2\Racer2.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:03.45
+Time Elapsed 00:01:20.25
